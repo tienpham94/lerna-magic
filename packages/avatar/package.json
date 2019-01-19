@@ -1,9 +1,9 @@
 {
   "name": "avatar",
-  "version": "2.0.0-alpha.0",
+  "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Tien Pham <r3dsky02@yahoo.com.vn>",
-  "homepage": "",
+  "homepage": "https://github.com/tienpham94/lerna-magic#readme",
   "license": "ISC",
   "main": "lib/avatar.js",
   "directories": {
@@ -13,7 +13,14 @@
   "files": [
     "lib"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tienpham94/lerna-magic.git"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/tienpham94/lerna-magic/issues"
   }
 }
