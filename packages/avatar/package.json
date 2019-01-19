@@ -22,11 +22,11 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "microbundle",
-    "dev": "microbundle watch"
+    "build": "microbundle --jsx",
+    "dev": "microbundle -jsx watch"
   },
   "devDependencies": {
-    
+
     "microbundle": "^0.9.0"
   },
   "bugs": {
