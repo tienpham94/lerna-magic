@@ -6,6 +6,9 @@
   "homepage": "https://github.com/tienpham94/lerna-magic#readme",
   "license": "ISC",
   "main": "lib/avatar.js",
+  "umd:main": "lib/avatar.umd.js",
+  "module": "lib/avatar.mjs",
+  "source": "src/avatar.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,7 +21,13 @@
     "url": "git+https://github.com/tienpham94/lerna-magic.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    
+    "microbundle": "^0.9.0"
   },
   "bugs": {
     "url": "https://github.com/tienpham94/lerna-magic/issues"
